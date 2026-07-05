@@ -1,0 +1,7 @@
+{
+  "claim_id": "test-002",
+  "submitter": "bob@example.com",
+  "raw_receipt_text": "Vendor: Steakhouse Prime\nDate: 2026-06-12\nAmount: USD 142.00\nSolo dinner while working late.",
+  "expected_status": "auto_rejected",
+  "notes": "Individual meal far over the $75 cap with no itemized receipt attached -- clear MEAL_CAP and RECEIPT_REQUIRED violation."
+}

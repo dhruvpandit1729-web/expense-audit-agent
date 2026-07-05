@@ -1,0 +1,7 @@
+{
+  "claim_id": "test-001",
+  "submitter": "alice@example.com",
+  "raw_receipt_text": "Vendor: Blue Bottle Coffee\nDate: 2026-06-10\nAmount: USD 18.50\nItem: 2x coffee, 1x pastry\nTeam standup catch-up with new hire.",
+  "expected_status": "auto_approved",
+  "notes": "Small, clean meal expense, no flags expected."
+}

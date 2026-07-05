@@ -1,0 +1,7 @@
+{
+  "claim_id": "test-003",
+  "submitter": "carol@example.com",
+  "raw_receipt_text": "Vendor: Delta Airlines\nDate: 2026-06-14\nAmount: USD 410.00\nCurrency: USD\nEconomy class, round trip for client visit.",
+  "expected_status": "escalated",
+  "notes": "Seed a prior identical claim (same vendor/amount/date window) into data/submitted_claims_log.json before running this case to trigger check_duplicate_receipt. High risk score should escalate, not silently reject."
+}

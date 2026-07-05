@@ -1,0 +1,7 @@
+{
+  "claim_id": "test-005",
+  "submitter": "erin@example.com",
+  "raw_receipt_text": "Vendor: Tonys Trattoria\nDate: 2026-06-18\nAmount: USD 118.00\nTeam lunch, 3 people, client present, includes 2 glasses of wine ($22 total).",
+  "expected_status": "auto_approved",
+  "notes": "Originally designed as an ambiguous precedent-testing case, but the math is actually unambiguous: $39.33/person meal (under $40 cap) and $7.33/person alcohol (under $25 cap) both clear cleanly. Kept as a regression test for correct per-person division rather than a true ambiguity test."
+}
